@@ -1,0 +1,48 @@
+.about-wrapper {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  margin: 0 1rem;
+  text-align: left;
+
+  h1,
+  h4,
+  h3,
+  h5,
+  p {
+    margin: 0.5rem 0;
+  }
+  h4,
+  h5 {
+    color: rgba(9, 57, 146, 0.781);
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  li {
+    font-size: 1rem;
+  }
+}
+.me {
+  text-align: right;
+  p {
+    margin: 0;
+  }
+}
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  h1 {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  p {
+    margin: 0.5rem 0;
+  }
+}
+
+.objective hr {
+  margin: 1.5rem 0;
+}
